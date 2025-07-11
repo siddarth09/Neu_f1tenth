@@ -1,0 +1,18 @@
+ackermann_mux:
+  ros__parameters:
+
+    topics:
+      navigation:
+        topic   : drive
+        timeout : 0.2
+        priority: 10
+      joystick:
+        topic   : teleop
+        timeout : 0.2
+        priority: 100
+
+    locks:
+      autonomous_mode:
+        topic   : /autonomous_mode
+        timeout : 0.0
+        priority: 100
