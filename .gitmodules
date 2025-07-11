@@ -1,0 +1,12 @@
+[submodule "ackermann_mux"]
+	path = ackermann_mux
+	url = git@github.com:f1tenth/ackermann_mux.git
+	branch = foxy-devel
+[submodule "teleop_tools"]
+	path = teleop_tools
+	url = git@github.com:f1tenth/teleop_tools.git
+	branch = foxy-devel
+[submodule "vesc"]
+	path = vesc
+	url = git@github.com:RIVeR-Lab/vesc.git
+	branch = foxy
